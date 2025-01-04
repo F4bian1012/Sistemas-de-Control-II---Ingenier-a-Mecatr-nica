@@ -1,0 +1,7 @@
+Se sugiere revisar el siguiente material
+
+https://matlabacademy.mathworks.com/es/details/matlab-fundamentals/mlbe
+
+Se sugiere leer el siguiente material
+
+Capitulo 4 Modelado matemático de sistemas físicos - Sistemas de Control Automático Benjamin C. Kuo

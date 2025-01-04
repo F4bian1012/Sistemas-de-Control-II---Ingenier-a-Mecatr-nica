@@ -1,0 +1,3 @@
+Se sugiere leer el siguiente material
+
+Capitulo 1 Introduction to Discrete-Time Control Systems - Discrete-Time Control systems K Ogata

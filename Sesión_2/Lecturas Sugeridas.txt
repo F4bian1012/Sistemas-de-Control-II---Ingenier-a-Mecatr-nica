@@ -1,0 +1,5 @@
+Se sugiere leer el siguiente material
+
+Capitulo 2 Fundamentos Matemáticos - Sistemas de Control Automático Benjamin C. Kuo
+
+Capitulo 2 The Z Transform - Discrete-Time Control systems K Ogata
