@@ -19,7 +19,7 @@ espaciado = linspace(0, 1, 5); % 5 valores entre 0 y 1
 disp(fila)
 disp (columna)
 disp (rango)
-
+disp (espaciado)
 %%
 % Crear una matriz 2x3
 matriz = [1, 2, 3; 4, 5, 6];
