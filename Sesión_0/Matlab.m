@@ -85,3 +85,4 @@ plot(x, y);
 title('Gráfica de y = sin(x)');
 xlabel('x');
 ylabel('y');
+
