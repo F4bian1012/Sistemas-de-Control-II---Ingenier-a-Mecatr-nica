@@ -15,5 +15,5 @@ a = conv(a1,a2);
 
 
 syms z K
-F = r(1)/(1-p(1)/z)+r(2)/(1-p(2)/z)
+F = r(1)/(1-p(1)/z)%%+r(2)/(1-p(2)/z)
 iztrans(F,K)
