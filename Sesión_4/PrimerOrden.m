@@ -3,7 +3,7 @@ figure()
 G_z =  0.37/ (z - 0.63);
 % Respuesta al escalón
 respuesta_escalon = iztrans(G_z / (z - 1), z, n)
-n_values = 0:50;
+n_values = 0:10;
 respuesta_escalon_values = subs(respuesta_escalon, n, n_values);
 % Graficar la respuesta al escalón
 stem(n_values, double(respuesta_escalon_values), 'filled');

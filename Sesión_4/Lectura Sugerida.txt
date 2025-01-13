@@ -1,0 +1,5 @@
+Se sugiere leer el siguiente material
+
+Capitulo 2-6 Aplicación de la trasnformada de Laplace a la solución de EDOs - Sistemas de Control Automático Benjamin C. Kuo
+
+Capitulo 2-12 Aplicación de la trasnformada Z a la solución de ecuaciones en diferencias lineales - Sistemas de Control Automático Benjamin C. Kuo
