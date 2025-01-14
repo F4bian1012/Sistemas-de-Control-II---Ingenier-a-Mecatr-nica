@@ -1,3 +1,4 @@
+%% BASICS
 % Creación de variables
 a = 5;
 b = 10;
@@ -86,3 +87,60 @@ title('Gráfica de y = sin(x)');
 xlabel('x');
 ylabel('y');
 
+
+
+%%  CONTROL
+% G(s) = 10 / (s^2 + 2s + 10)
+num = [10]; % Numerador
+den = [1 2 10]; % Denominador
+G = tf(num, den)
+
+
+%%
+% Respuesta al escalón de la función de transferencia
+step(G);
+title('Respuesta al Escalón');
+
+%%
+% Respuesta al impulso del sistema
+impulse(G);
+title('Respuesta al Impulso');
+%%
+% Lugar de raíces
+rlocus(G);
+title('Lugar de Raíces');
+%%
+% Representar en ceros, polos y ganancia
+[z, p, k] = zpkdata(G, 'v');
+disp('Ceros:'), disp(z);
+disp('Polos:'), disp(p);
+disp('Ganancia:'), disp(k);
+
+
+%%
+% Crear un controlador PID
+Kp = 1; Ki = 1; Kd = 0.5;
+pid_controller = pid(Kp, Ki, Kd)
+
+%% Lazo cerrado
+H = 1; % Función de transferencia del sensor
+T = feedback(G, H);
+step(T);
+title('Respuesta en Lazo Cerrado');
+
+%%
+% Calcular polos y ceros
+poles = pole(G);
+zeros = zero(G);
+disp('Polos:'), disp(poles);
+disp('Ceros:'), disp(zeros);
+
+
+%%
+% Comprobar estabilidad
+estabilidad = isstable(G);
+if estabilidad
+    disp('El sistema es estable.');
+else
+    disp('El sistema no es estable.');
+end
