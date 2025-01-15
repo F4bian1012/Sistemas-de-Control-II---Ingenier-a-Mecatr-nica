@@ -5,3 +5,6 @@ En cada folder correspondiente a cada sesión, se encuentran:
 - lecturas sugeridas; las cuales se sugiere sean realizadas previo a la sesión	
 - Las presentaciones; son el material orientador para el desarrollo de cada sesión
 - Los laboratorios; son material desarrollado principalmente en Matlab y el cual contiene el desarrollo de los laboratorios o ejercicios a realizar en cada sesión.
+
+El material es basado y adaptado de los textos de Kuo, B. (Septima edición). Sistemas de control automático. Prentice Hall. y Atsuhiko Ogata (Second Edition) Discrete Time Control Systems
+
